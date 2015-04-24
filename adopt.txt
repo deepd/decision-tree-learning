@@ -1,0 +1,12 @@
+Two,Male,Pomeranian,N
+One,Male,Chihuahua,Y
+Four,Female,AustralianShepherd,Y
+Two,Male,PitBull,N
+One,Male,AustralianShepherd,Y
+One,Male,PitBull,N
+One,Female,AustralianShepherd,N
+One,Female,Chihuahua,Y
+Four,Female,Pomeranian,N
+Two,Male,Chihuahua,Y
+Two,Female,Pomeranian,Y
+Two,Female,AustralianShepherd,N

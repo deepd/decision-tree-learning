@@ -1,0 +1,32 @@
+digraph G {
+// attributes
+attr1 [shape="rectangle", label="Breed"]
+attr2 [shape="rectangle", label="Age"]
+attr3 [shape="rectangle", label="Age"]
+attr4 [shape="rectangle", label="Sex"]
+attr5 [shape="rectangle", label="Sex"]
+// leaves
+leaf1 [shape="plaintext", label="Yes"]
+leaf2 [shape="plaintext", label="Yes"]
+leaf3 [shape="plaintext", label="Yes"]
+leaf4 [shape="plaintext", label="Yes"]
+leaf5 [shape="plaintext", label="No"]
+leaf6 [shape="plaintext", label="No"]
+leaf7 [shape="plaintext", label="No"]
+leaf8 [shape="plaintext", label="No"]
+leaf9 [shape="plaintext", label="No"]
+// connections
+attr1 -> attr2 [label="Pomeranian"]
+attr1 -> attr3 [label="AustralianShepherd"]
+attr1 -> leaf1 [label="Chihuahua"]
+attr1 -> leaf5 [label="PitBull"]
+attr2 -> attr4 [label="Two"]
+attr2 -> leaf6 [label="Four"]
+attr3 -> attr5 [label="One"]
+attr3 -> leaf7 [label="Two"]
+attr3 -> leaf2 [label="Four"]
+attr4 -> leaf8 [label="Male"]
+attr4 -> leaf3 [label="Female"]
+attr5 -> leaf4 [label="Male"]
+attr5 -> leaf9 [label="Female"]
+}
